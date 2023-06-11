@@ -1,0 +1,58 @@
+.masthead {
+    background-color: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+}
+
+.color-overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.singleCol {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.darkBG {
+    background-color: #363636;
+    color: white;
+}
+.blackBG {
+    background-color: black;
+    color: white;
+}
+
+.lightBG {
+    background-color: #ffff;
+    color: #363636;
+}
+.brownBG {
+    background-color: #483434;
+    color: white;
+}
+.customBG {
+    background-color: #EED6C4;
+    color: white;
+}
+
+@media (max-width:768px) {
+    .masthead {
+        min-height: 50vh;
+    }
+    h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+}
+
+
+
+
+
